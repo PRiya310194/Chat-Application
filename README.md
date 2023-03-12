@@ -1,8 +1,11 @@
 # Chat-Application
 # Requirements
 IntelliJIDEA
+
 Serverport:8080(use local host:8080)
+
 Java version 17
+
 Everything is present in pom.xml.no need to download any library
 
 # This is springboot based project which show the chat between two users.
@@ -19,18 +22,24 @@ Put specific end point besides the port accordingly to run the project to access
 
 # Controllers
 UsersControllers
-StstusController
+
+StatusController
+
 ChatHistoryControllers
 
 #DAO
 
 UserRepository
+
 StatusRepository
+
 ChatHistoryRepositoty
 
 #Service
 UserService
+
 StatusService
+
 ChatHistoryService
 
 #Utils
